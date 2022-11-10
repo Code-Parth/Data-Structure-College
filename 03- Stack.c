@@ -54,5 +54,4 @@ void main()
             break;
         }
     }
-    return 0;
 }
