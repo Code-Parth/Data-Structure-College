@@ -8,17 +8,16 @@
 
 #include <stdio.h>
 
-int stack[100], choice, n, top, x, i;
+int stack[10], choice, n, top, x, i;
 void push(void);
 void pop(void);
 void display(void);
 int main()
 {
     top = -1;
-    printf("\n Enter the size of STACK[MAX=100]:");
+    printf("\n Enter the size of STACK[MAX=10]:");
     scanf("%d", &n);
     printf("\n\t STACK OPERATIONS USING ARRAY");
-    printf("\n\t--------------------------------");
     printf("\n\t 1.PUSH\n\t 2.POP\n\t 3.DISPLAY\n\t 4.EXIT");
     do
     {
