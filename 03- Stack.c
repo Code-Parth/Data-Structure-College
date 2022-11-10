@@ -13,7 +13,7 @@ int s[N];
 void main()
 {
     int x, y, Option;
-    while(1)
+    while (1)
     {
         switch (Option)
         {
@@ -32,7 +32,7 @@ void main()
         case 4:
             /* code */
             break;
-        
+
         default:
             break;
         }
