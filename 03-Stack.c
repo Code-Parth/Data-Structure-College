@@ -10,7 +10,7 @@
 
 #define stack[n] 3
 
-int choice, top, x, i;
+int Option, top, x, i;
 void push(void);
 void pop(void);
 void peep(void);
@@ -23,9 +23,9 @@ int main()
     printf("\n\t 1.PUSH\n\t 2.POP\n\t 3.PEEP\n\t 4.CHANGE\n\t 5.DISPLAY\n\t 6.EXIT");
     do
     {
-        printf("\n Enter the Choice:");
-        scanf("%d", &choice);
-        switch (choice)
+        printf("\n Enter the Option:");
+        scanf("%d", &Option);
+        switch (Option)
         {
         case 1:
         {
@@ -59,10 +59,10 @@ int main()
         }
         default:
         {
-            printf("\n\t Please Enter a Valid Choice(1/2/3/4)");
+            printf("\n\t Please Enter a Valid Option(1/2/3/4)");
         }
         }
-    } while (choice != 4);
+    } while (Option != 4);
     return 0;
 }
 
@@ -111,7 +111,7 @@ void display()
         printf("\n The elements in STACK \n");
         for (i = top; i >= 0; i--)
             printf("\n%d", stack[i]);
-        printf("\n Press Next Choice");
+        printf("\n Press Next Option");
     }
     else
     {
