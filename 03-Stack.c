@@ -11,6 +11,8 @@
 int stack[10], choice, n, top, x, i;
 void push(void);
 void pop(void);
+void peep(void);
+void change(void);
 void display(void);
 int main()
 {
@@ -18,7 +20,7 @@ int main()
     printf("\n Enter the size of STACK[MAX=10]:");
     scanf("%d", &n);
     printf("\n\t STACK OPERATIONS USING ARRAY");
-    printf("\n\t 1.PUSH\n\t 2.POP\n\t 3.DISPLAY\n\t 4.EXIT");
+    printf("\n\t 1.PUSH\n\t 2.POP\n\t 3.PEEP\n\t 4.CHANGE\n\t 5.DISPLAY\n\t 6.EXIT");
     do
     {
         printf("\n Enter the Choice:");
@@ -35,14 +37,24 @@ int main()
             pop();
             break;
         }
-        case 3:
+        case 2:
+        {
+            peep();
+            break;
+        }
+        case 2:
+        {
+            change();
+            break;
+        }
+        case 5:
         {
             display();
             break;
         }
-        case 4:
+        case 6:
         {
-            printf("\n\t EXIT POINT ");
+            printf("\n\t EXIT POINT \n");
             break;
         }
         default:
@@ -53,6 +65,7 @@ int main()
     } while (choice != 4);
     return 0;
 }
+
 void push()
 {
     if (top >= n - 1)
@@ -67,6 +80,7 @@ void push()
         stack[top] = x;
     }
 }
+
 void pop()
 {
     if (top <= -1)
@@ -79,6 +93,17 @@ void pop()
         top--;
     }
 }
+
+void peep()
+{
+
+}
+
+void change()
+{
+
+}
+
 void display()
 {
     if (top >= 0)
