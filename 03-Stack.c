@@ -22,7 +22,8 @@ void main()
         printf("\n03.PEEP()");
         printf("\n04.CHANGE()");
         printf("\n05.DISPLAY()");
-        printf("\n06.EXIT()");
+        printf("\n06.EXIT()\n");
+        scanf("Select Option : %d",&Option);
         switch (Option)
         {
         case 1:
