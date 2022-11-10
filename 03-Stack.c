@@ -27,27 +27,28 @@ void main()
         switch (Option)
         {
         case 1:
-            printf("\n01.PUSH()");
+            printf("\nPUSH() Function using");
             break;
 
         case 2:
-            printf("\n02.POP()");
+            printf("\nPOP() Function using");
             break;
 
         case 3:
-            printf("\n03.PEEP()");
+            printf("\nPEEP() Function using");
             break;
 
         case 4:
-            printf("\n04.CHANGE()");
+            printf("\nCHANGE() Function using");
             break;
 
         case 5:
-            printf("\n05.DISPLAY()");
+            printf("\nDISPLAY() Function using");
             break;
 
         case 6:
-            printf("\n06.EXIT()");
+            printf("\nEXIT() Function using");
+            exit(0);
             break;
 
         default:
