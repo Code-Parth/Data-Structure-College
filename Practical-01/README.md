@@ -34,8 +34,8 @@ void swap(int p, int q)
 
 ### Output
 
-![Call By Value Light](https://github.com/Code-Parth/Data-Structure-College/blob/master/Practical-01/Img/Light/Call-By-Value-Output-Light.png#gh-light-mode-only)
-![Call By Value Dark](https://github.com/Code-Parth/Data-Structure-College/blob/master/Practical-01/Img/Dark/Call-By-Value-Output-Dark.png#gh-dark-mode-only)
+![Call-By-Value-Light](https://github.com/Code-Parth/Data-Structure-College/blob/master/Practical-01/Img/Light/Call-By-Value-Output-Light.png#gh-light-mode-only)
+![Call-By-Value-Dark](https://github.com/Code-Parth/Data-Structure-College/blob/master/Practical-01/Img/Dark/Call-By-Value-Output-Dark.png#gh-dark-mode-only)
 
 -----
 
@@ -73,7 +73,7 @@ void swap(int *p, int *q)
 
 ### Output
 
-![Call By Reference Light](https://github.com/Code-Parth/Data-Structure-College/blob/master/Practical-01/Img/Light/Call-By-Reference-Output-Light.png#gh-light-mode-only)
-![Call By Reference Dark](https://github.com/Code-Parth/Data-Structure-College/blob/master/Practical-01/Img/Dark/Call-By-Reference-Output-Dark.png#gh-dark-mode-only)
+![Call-By-Reference-Light](https://github.com/Code-Parth/Data-Structure-College/blob/master/Practical-01/Img/Light/Call-By-Reference-Output-Light.png#gh-light-mode-only)
+![Call-By-Reference-Dark](https://github.com/Code-Parth/Data-Structure-College/blob/master/Practical-01/Img/Dark/Call-By-Reference-Output-Dark.png#gh-dark-mode-only)
 
 -----
