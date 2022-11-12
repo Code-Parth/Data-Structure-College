@@ -64,4 +64,5 @@ int main()
 
 ![Calloc-Light](https://github.com/Code-Parth/Data-Structure-College/blob/master/Practical-02/Img/Light/Calloc-Output-Light.png#gh-light-mode-only)
 ![Calloc-Dark](https://github.com/Code-Parth/Data-Structure-College/blob/master/Practical-02/Img/Dark/Calloc-Output-Dark.png#gh-dark-mode-only)
+
 -----
