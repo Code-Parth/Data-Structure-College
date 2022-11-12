@@ -1,5 +1,7 @@
 #include <stdio.h>
+
 #define size 5
+
 struct stack
 {
     int a[size], top;
@@ -121,6 +123,5 @@ int main()
             }
         }
     } while (choice != 6);
-
     return 0;
 }

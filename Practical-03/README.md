@@ -1,11 +1,13 @@
 # Implement a program for stack that performs following operations using array.
 
-## PUSH ,POP ,PEEP , CHANGE, DISPLAY
+## PUSH, POP, PEEP, CHANGE, DISPLAY
 
 ### Code
 ```C
 #include <stdio.h>
+
 #define size 5
+
 struct stack
 {
     int a[size], top;
@@ -127,7 +129,8 @@ int main()
             }
         }
     } while (choice != 6);
-
     return 0;
 }
 ```
+
+-----
